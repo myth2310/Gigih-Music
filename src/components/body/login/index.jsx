@@ -18,8 +18,8 @@ const Login = () => {
 	const handleLogin = (e) => {
 		e.preventDefault();
 		var stateKey = 'spotify_auth_state';
-		var client_id = 'a43d691e54a04cd6991b32ccae36403a' ;
-		var redirect_uri = 'http://localhost:3000';
+		var client_id = String(process.env.REACT_APP_SPOTIFY_CLIENT_ID) ;
+		var redirect_uri = 'http://lagalio.vercel.app/';
 
 		var state = generateRandomString(16);
 
