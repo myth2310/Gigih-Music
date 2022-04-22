@@ -19,7 +19,7 @@ const Login = () => {
 		e.preventDefault();
 		var stateKey = 'spotify_auth_state';
 		var client_id = String(process.env.REACT_APP_SPOTIFY_CLIENT_ID) ;
-		var redirect_uri = 'http://localhost:3000';
+		var redirect_uri = 'https://gigih-music.vercel.app/';
 
 		var state = generateRandomString(16);
 
