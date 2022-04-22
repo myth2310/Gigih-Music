@@ -10,7 +10,7 @@
 }
 
 .playlist-card{
-    border: 1px solid #dadada;
+    border: 1px dashed #dadada;
     display: flex;
     padding: 16px;
     width: 100%;
